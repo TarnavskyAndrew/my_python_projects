@@ -4,6 +4,7 @@
 
 from datetime import datetime
 
+<<<<<<< HEAD
 def get_days_from_today(date):       
     # Перевіряємо вхідний параметри, за необхідності наводимо до одного типу:
     if "." in date or "," in date or "_" in date or " " in date:
@@ -11,6 +12,15 @@ def get_days_from_today(date):
                   
     try:  
         start_day = datetime.strptime(date, "%Y-%m-%d").date()  # Перетворимо рядок на об'єкт типу date           
+=======
+def string_to_date(date_string):       
+    # Перевіряємо вхідний параметри, за необхідності наводимо до одного типу:
+    if "." in date_string or "," in date_string or "_" in date_string or " " in date_string:
+        date_string = date_string.replace(".", "-").replace(",", "-").replace("_", "-").replace(" ", "-")  
+                  
+    try:  
+        start_day = datetime.strptime(date_string, "%Y-%m-%d").date()  # Перетворимо рядок на об'єкт типу date           
+>>>>>>> fb9febd72f8773f18c90c8419ddc9f243d2f7071
         today = datetime.today().date()     # Отримуємо сьогоднішню дату     
         difference_day = today - start_day  # Обчислюємо різницю у днях
         return difference_day.days  
@@ -18,7 +28,11 @@ def get_days_from_today(date):
     except ValueError:
         print("Please enter the date in the following format: YYYY-MM-DD")        
 
+<<<<<<< HEAD
 result = get_days_from_today("2020-10-09")
+=======
+result = string_to_date("2020-10-09")
+>>>>>>> fb9febd72f8773f18c90c8419ddc9f243d2f7071
 print(f"date difference: {result}") # date difference :1636
 
 print()
@@ -64,7 +78,11 @@ print()
 
 """ 
 Розробіть функцію normalize_phone(phone_number), що нормалізує телефонні номери до стандартного формату, 
+<<<<<<< HEAD
 залишаючи тільки цифри та символ '+' на початку.
+=======
+залишаючи тільки цифри та символ '+' на початку
+>>>>>>> fb9febd72f8773f18c90c8419ddc9f243d2f7071
 """
 
 import re 
@@ -81,6 +99,7 @@ raw_numbers = [
     "38050 111 22 11   ",
 ]
 
+<<<<<<< HEAD
 def normalize_phone(phone_number):
     
     # Видаляємо всі символи, окрім цифр
@@ -98,6 +117,30 @@ print(fixed_numbers)
 
 
 print("."*150)
+=======
+def normalize_phone(phone_numbers):
+    normalized_numbers = []  
+
+    for phone in phone_numbers:
+        # Видаляємо всі символи, окрім цифр
+        cleaned_number = re.sub(r"\D", "", phone)
+
+        # Наводимо номер до міжнародного формату
+        if cleaned_number.startswith("380"):
+            cleaned_number = "+" + cleaned_number
+        else:
+            cleaned_number = "+38" + cleaned_number 
+
+        normalized_numbers.append(cleaned_number)  
+    
+    return normalized_numbers  
+
+fixed_numbers = normalize_phone(raw_numbers)
+print(fixed_numbers)
+
+
+print("."*50)
+>>>>>>> fb9febd72f8773f18c90c8419ddc9f243d2f7071
 
    
 
