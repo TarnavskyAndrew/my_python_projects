@@ -19,7 +19,7 @@ def get_days_from_today(date):
         print("Please enter the date in the following format: YYYY-MM-DD")        
 
 result = get_days_from_today("2020-10-09")
-print(f"date difference: {result}") # date difference :16366
+print(f"date difference: {result}") # date difference :1636
 
 print()
 
@@ -64,7 +64,7 @@ print()
 
 """ 
 Розробіть функцію normalize_phone(phone_number), що нормалізує телефонні номери до стандартного формату, 
-залишаючи тільки цифри та символ '+' на початку
+залишаючи тільки цифри та символ '+' на початку.
 """
 
 import re 
@@ -97,7 +97,4 @@ fixed_numbers = list(map(normalize_phone, raw_numbers))
 print(fixed_numbers)
 
 
-print("."*50)
-
-   
-
+print("."*150)
