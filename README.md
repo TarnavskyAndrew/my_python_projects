@@ -18,7 +18,7 @@ Here I learn, practice and improve my coding skills.
 - Change phone:  `change Name NewPhone`
 - Rename contact:  `rename OldName NewName`
 - Show all contacts:  `all`
-- Save and exit:  `exit` or `close`
+- Save and exit:  `exit`  or  `close`
 - Greeting:  `hello`
 
 ---
@@ -26,7 +26,7 @@ Here I learn, practice and improve my coding skills.
 ### How it works:
 
 1. Loads contacts from `contacts.txt`
-2. After exit (exit or close command), the bot automatically saves all changes to contacts.txt.
+2. After exit (exit or close command), the bot automatically saves all changes to `contacts.txt`.
 3. All data is stored as dictionary:
 
 

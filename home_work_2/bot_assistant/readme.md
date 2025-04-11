@@ -12,7 +12,7 @@ A simple console assistant bot written in Python for managing contacts.
 - Change phone number: `change Name NewPhone`
 - Rename contact: `rename OldName NewName`
 - Show all contacts: `all`
-- Save and exit: `exit` or `close`
+- Save and exit: `exit`  or  `close`
 - Greeting: `hello`
 
 ---
@@ -21,7 +21,7 @@ A simple console assistant bot written in Python for managing contacts.
 
 1. Loads contacts from `contacts.txt` at startup.
 
-2. After using exit or close, the bot automatically saves all changes to contacts.txt.
+2. After using exit or close, the bot automatically saves all changes to `contacts.txt`.
 
 3. All contacts are stored as a Python dictionary:
 
@@ -36,22 +36,15 @@ contacts = {
 ### Example of usage:
 
 Enter a command:  `add Name 380111111111`
-
 `Contact added.`
 
-
 Enter a command:  `phone Name`
-
 `Name: 380111111111`
-
 
 Enter a command:  `all`
-
 `Name: 380111111111`
 
-
 Enter a command:  `exit`
-
 `Contacts saved. Good bye!`
 
 
