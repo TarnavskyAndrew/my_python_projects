@@ -1,4 +1,4 @@
-# my projects on Python
+# my-projects-on-python
 
 
 ## Instructions
