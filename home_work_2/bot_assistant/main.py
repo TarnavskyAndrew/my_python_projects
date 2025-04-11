@@ -22,7 +22,7 @@ def main():
 
         if command in ["close", "exit"]:
             save_contacts_to_file(FILENAME, contacts)
-            print("Good bye!")
+            print("Contacts saved. Good bye!")
             break
         elif command == "hello":
             print("How can I help you?")
