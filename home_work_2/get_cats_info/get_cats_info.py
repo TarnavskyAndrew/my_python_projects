@@ -1,7 +1,7 @@
 import os
 from colorama import Fore
 
-FILENAME = "./get_cats_info/cats_info.txt"
+FILENAME = "./home_work_2/get_cats_info/cats_info.txt"
 
 def get_cats_info(path) -> list:
     

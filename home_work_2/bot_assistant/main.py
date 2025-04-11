@@ -1,4 +1,3 @@
-# bot_assistant
 from parse_input import parse_input
 from add_contact import add_contact
 from show_all_contacts import show_all_contacts
@@ -11,9 +10,9 @@ from colorama import Fore
 
 
 def main():
-    contacts = {}
-    # FILENAME = "./bot_assistant/contacts.txt"
-    # contacts = load_contacts_from_file(FILENAME)    
+    # contacts = {}
+    FILENAME = "./home_work_2/bot_assistant/contacts.txt"
+    contacts = load_contacts_from_file(FILENAME)    
     
     print("Welcome to the assistant bot!")
     
@@ -22,7 +21,7 @@ def main():
         command, *args = parse_input(user_input)
 
         if command in ["close", "exit"]:
-            # save_contacts_to_file(FILENAME, contacts)
+            save_contacts_to_file(FILENAME, contacts)
             print("Good bye!")
             break
         elif command == "hello":
@@ -35,8 +34,8 @@ def main():
             print(show_all_contacts(contacts))
         elif command == "phone":            
             print(phone_contact(args, contacts))
-        # elif command == "rename":
-        #     print(change_username(args, contacts))    
+        elif command == "rename":
+            print(change_username(args, contacts))    
                     
         else:
             print("Invalid command.")

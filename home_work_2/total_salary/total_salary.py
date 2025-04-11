@@ -1,6 +1,6 @@
 import os
 
-FILENAME = "./total_salary/salary_file.txt"
+FILENAME = "./home_work_2/total_salary/salary_file.txt"
 
 def total_salary(path: str) -> tuple:
  
