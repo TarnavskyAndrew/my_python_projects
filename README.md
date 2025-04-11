@@ -54,10 +54,11 @@ The project is in progress and will be improved.
 
 Stay tuned 😉
 
+---
 
 Project structure:
 
-
+```python
 bot_assistant/
 │
 ├── main.py
@@ -68,6 +69,6 @@ bot_assistant/
 ├── load_contacts_from_file.py
 ├── save_contacts_to_file.py
 └── contacts.txt
+```
 
-
-</details> ```
+</details>
