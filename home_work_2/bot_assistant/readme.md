@@ -33,7 +33,7 @@ contacts = {
 
 ```
 
-Example of usage:
+### Example of usage:
 
 Enter a command: add Name 380111111111
 Contact added.
@@ -67,7 +67,7 @@ Stay tuned 😉
 
 ---
 
-Project structure:
+## Project structure:
 
 ```python
 bot_assistant/
@@ -81,15 +81,15 @@ bot_assistant/
 ├── save_contacts_to_file.py
 └── contacts.txt
 ```
----
 
-Run the bot:
+
+### Run the bot:
 
 python main.py
 
 ---
 
-Author:
+### Author:
 
 Created by Tarnavsky Andrew
 

@@ -38,6 +38,7 @@ contacts = {
 
 ```
 
+
 ---
 
 ## Project status 🛠️
@@ -55,9 +56,10 @@ The project is in progress and will be improved.
 
 Stay tuned 😉
 
+
 ---
 
-Project structure:
+## Project structure:
 
 ```python
 bot_assistant/
