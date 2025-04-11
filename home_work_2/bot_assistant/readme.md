@@ -68,6 +68,7 @@ Stay tuned 😉
 ---
 
 Project structure:
+
 ```python
 bot_assistant/
 │
@@ -83,10 +84,13 @@ bot_assistant/
 ---
 
 Run the bot:
+
 python main.py
 
 ---
 
 Author:
+
 Created by Tarnavsky Andrew
+
 GitHub: https://github.com/TarnavskyAndrew/my_project_python_git

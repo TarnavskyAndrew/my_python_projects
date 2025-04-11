@@ -9,7 +9,6 @@ Here I learn, practice and improve my coding skills.
 <summary>Bot Assistant 🤖 — description and commands</summary>
 
 
-
 *A simple console assistant bot written in Python for managing contacts.*
 
 ### What bot can do:
@@ -38,6 +37,8 @@ contacts = {
 }
 
 ```
+
+---
 
 ## Project status 🛠️
 
