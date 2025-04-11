@@ -4,7 +4,7 @@ from colorama import Fore
 
 def add_contact(args, contacts):
     if len(args) != 2:
-        return print(f"{Fore.RED}[ERROR:]{Fore.RESET} Enter your name and phone number separated by spaces: -> 'change Name number'")
+        return f"{Fore.RED}[ERROR:]{Fore.RESET} Enter your name and phone number separated by spaces: -> 'change Name number'"
 
     name, phone = args
 
