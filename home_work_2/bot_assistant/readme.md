@@ -46,7 +46,7 @@ Enter a command:  `all`
 *Name: 380111111111*
 
 Enter a command:  `exit`    
-*Contacts saved. Goodbye!*
+*Contacts saved. Goodbye, have a nice day!*
 
 
 ---
