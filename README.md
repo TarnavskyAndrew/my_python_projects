@@ -1,10 +1,13 @@
-my projects on Python
+# my projects on Python
 
 
-Instructions
+## Instructions
+
 To run our code:
 
-python main.py
+`python main.py`
 
+```python
 def hello():
-  return "Hello World"
+  return "Hello"
+```
