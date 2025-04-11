@@ -74,4 +74,12 @@ bot_assistant/
 └── contacts.txt
 ```
 
+
+### Run the bot:
+
+`python main.py`  
+
+https://github.com/TarnavskyAndrew/my_project_python_git/tree/main/home_work_2/bot_assistant
+
+
 </details>
