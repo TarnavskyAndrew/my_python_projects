@@ -13,13 +13,13 @@ Here I learn, practice and improve my coding skills.
 
 ### What bot can do:
 
-- Add contact: `add Name Phone`
-- Show phone by name: `phone Name`
-- Change phone: `change Name NewPhone`
-- Rename contact: `rename OldName NewName`
-- Show all contacts: `all`
-- Save and exit: `exit` or `close`
-- Greeting: `hello`
+- Add contact:  `add Name Phone`
+- Show phone by name:  `phone Name`
+- Change phone:  `change Name NewPhone`
+- Rename contact:  `rename OldName NewName`
+- Show all contacts:  `all`
+- Save and exit:  `exit` or `close`
+- Greeting:  `hello`
 
 ---
 
