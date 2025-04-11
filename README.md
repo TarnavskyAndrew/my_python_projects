@@ -9,6 +9,7 @@ Here I learn, practice and improve my coding skills.
 <summary>Bot Assistant 🤖 — description and commands</summary>
 
 
+
 *A simple console assistant bot written in Python for managing contacts.*
 
 ### What bot can do:
@@ -36,6 +37,7 @@ contacts = {
     "Name": ["380333333333"] 
 }
 
+```
 
 ## Project status 🛠️
 
@@ -55,6 +57,7 @@ Stay tuned 😉
 
 Project structure:
 
+
 bot_assistant/
 │
 ├── main.py
@@ -65,5 +68,6 @@ bot_assistant/
 ├── load_contacts_from_file.py
 ├── save_contacts_to_file.py
 └── contacts.txt
+
 
 </details> ```
