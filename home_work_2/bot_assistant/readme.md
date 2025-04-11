@@ -33,23 +33,24 @@ contacts = {
 
 ```
 
+
 ### Example of usage:
 
-Enter a command:  `add Name 380111111111`
+Enter a command:  `add Name 380111111111`  ->  
 `Contact added.`
 
-Enter a command:  `phone Name`
+Enter a command:  `phone Name`  ->  
 `Name: 380111111111`
 
-Enter a command:  `all`
+Enter a command:  `all`  ->  
 `Name: 380111111111`
 
-Enter a command:  `exit`
+Enter a command:  `exit`  ->  
 `Contacts saved. Good bye!`
 
 
-
 ---
+
 
 ## Project status 🛠️
 
@@ -88,7 +89,9 @@ bot_assistant/
 
 `python main.py`
 
+
 ---
+
 
 ### Author:
 
