@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime stuff
+*.log
+
+# Python dependency files
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Cache and test coverage
+.cache/
+coverage/
+htmlcov/
+*.cover
+*.py,cover
+
+# Local config files
+.env
+*.env
+
+# Jupyter and IPython
+.ipynb_checkpoints/

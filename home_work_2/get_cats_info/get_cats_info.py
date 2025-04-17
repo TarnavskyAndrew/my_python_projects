@@ -5,11 +5,7 @@ FILENAME = "./home_work_2/get_cats_info/cats_info.txt"
 
 def get_cats_info(path) -> list:
     
-    """
-    Отримує дані про котів із файлу.
-    Повертає список словників: [{"id": id, "name": name, "age": age}]
-    """
-    
+
     try:
         if os.path.getsize(path) == 0:   # Перевіряємо чи є дані у файлі
             print(f"{Fore.YELLOW}[WARNING:]{Fore.RESET} The file exists, but there is no data.")
