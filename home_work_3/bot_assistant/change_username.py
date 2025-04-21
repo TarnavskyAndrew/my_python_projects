@@ -4,8 +4,6 @@ from utils.decorators import input_error
 
 @input_error
 def change_username(args, contacts):
-    if len(args) != 2:
-        return f"{Fore.RED}[ERROR:]{Fore.RESET} Enter old name and new name like: rename old_name new_name"
 
     old_name, new_name = args
 

@@ -6,8 +6,6 @@ from utils.decorators import input_error
 
 @input_error
 def add_contact(args, contacts):
-    if len(args) != 2:
-        return f"{Fore.RED}[ERROR:]{Fore.RESET} Enter your name and phone number separated by spaces: -> 'change Name number'"
 
     name, phone = args
 
